@@ -41,10 +41,7 @@ The system uses **Google Maps data via SerpAPI** and applies **intelligent filte
 
 * Scrapes business websites
 * Automatically checks:
-
-  * Homepage
-  * `/contact` page
-
+  
 ---
 
 ### 🧠 Lead Quality Scoring
@@ -60,33 +57,12 @@ Score = (Rating × 2) + log10(Reviews) + Email Bonus + Website Bonus
 
 ---
 
-### 📈 Pagination Handling (Unlimited Fetch)
-
-* Fetches multiple pages using `start` parameter
-* Continues until:
-
-  * Minimum leads achieved (≥20)
-  * OR no more data available
-* Removes duplicates automatically
-
----
-
 ### 📥 Export Functionality
 
 * Download leads as:
 
   * CSV file
   * Excel (.xls) file
-
----
-
-### 🎨 Modern UI/UX
-
-* Glassmorphism design
-* Background image with overlay
-* Responsive layout (4 cards per row)
-* Clean professional structure
-* Google Maps clickable locations
 
 ---
 
@@ -148,13 +124,11 @@ Score = (Rating × 2) + log10(Reviews) + Email Bonus + Website Bonus
 
 ❌ Depends on **SerpAPI limits (free tier restrictions)**
 ❌ Some businesses may not have:
-
 * Website
 * Email
 * Phone number
 
 ❌ Email scraping may fail due to:
-
 * Dynamic websites
 * Hidden emails
 
@@ -168,7 +142,7 @@ Score = (Rating × 2) + log10(Reviews) + Email Bonus + Website Bonus
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/your-username/ai-lead-generator.git
+git clone https://github.com/GokulPawar636/ai-lead-generator.git
 cd ai-lead-generator
 ```
 
@@ -207,42 +181,5 @@ http://127.0.0.1:8000/
 * `Electronics store`
 * `Steel suppliers`
 * `Construction companies`
-
----
-
-## 🚀 Future Improvements
-
-* 📍 City-based search filter
-* 📊 Dashboard with analytics
-* ⚡ Faster scraping (async/multithreading)
-* 🤖 ML-based lead scoring
-* 🔐 User login system
-* 📧 Email verification system
-* 🌐 Deployment (Render / AWS / Hostinger)
-
----
-
-## 👨‍💻 Author
-
-Developed as part of an **AI Lead Generator MVP assignment**
-Focused on combining:
-
-* Web scraping
-* API integration
-* Data filtering
-* UI/UX design
-
----
-
-## ⭐ Conclusion
-
-This project demonstrates how to build a **real-world lead generation system** using:
-
-* API integration
-* Data processing
-* Smart ranking
-* Clean UI
-
-It can be extended into a **full SaaS product** for B2B lead generation.
 
 ---
